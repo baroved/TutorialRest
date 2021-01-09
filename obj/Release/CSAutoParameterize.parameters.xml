@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Test-Web.config Connection String" description="Test Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:baro.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User=baro@baro.database.windows.net;Password=aZ09876543@!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Timeout=30" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\12bar\\Desktop\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Test']/@connectionString" />
+  </parameter>
+</parameters>
